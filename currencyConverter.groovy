@@ -1,4 +1,4 @@
-print "If I give you GBP 1, how many Euro will you give me? ";
+﻿print "If I give you GBP 1, how many Euro will you give me? ";
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 print "If I give you 1 EUR, how many Sterling pounds will you give me? ";
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
@@ -30,8 +30,8 @@ while (!finished) {
 	  finished = true;
 	  break;
     default: 
-	  println "Sorry, that is not a valid option";
+	  println "Sorry, that is not a valid option!";
     }	  
 }
-println "Exiting the program";
+println "Exiting the program..";
 
